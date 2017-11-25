@@ -39,7 +39,7 @@ p {
 
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #686465;
   float: left;
   position: fixed;
   width: 100%;
@@ -91,4 +91,10 @@ a {
   text-decoration: none;
 }
 
-a:link { color:#df1941; } /* visited */
+a:link { color:#f20736; } /* visited */
+
+
+ div.location:hover {
+  background-color: #b3b3b3;
+  cursor: default;
+}
