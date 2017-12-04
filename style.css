@@ -97,9 +97,19 @@ article {
   width: 50%;
 }
 
-/*links */
-a {
-  text-decoration: none;
+/* link */
+a:visited {
+    color: #EEE;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-a:link { color:#df1941; } /* visited */
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
